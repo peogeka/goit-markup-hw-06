@@ -439,7 +439,7 @@ text-transform: uppercase;
 .modal-check:checked + .check-text::before {
     width: 16px;
     height: 16px;
-    background-color: var(--hover-focus-color);
+   
     border: 1px solid var(--hover-focus-color);
     border-radius: 2px;
     background-image: url(/images/click.svg);
