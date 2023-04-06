@@ -442,7 +442,7 @@ text-transform: uppercase;
     background-color: var(--hover-focus-color);
     border: 1px solid var(--hover-focus-color);
     border-radius: 2px;
-    background-image: url(/images/checked.svg);
+    background-image: url(/images/click.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
