@@ -440,10 +440,9 @@ text-transform: uppercase;
     width: 16px;
     height: 16px;
     background-color: var(--hover-focus-color) ;
-    fill: #FFFFFF;
     border: 1px solid var(--hover-focus-color);
     border-radius: 2px;
-    background-image: url(/images/click.svg);
+    background-image: url(/images/click.svg#icon-Property-1click);
     background-repeat: no-repeat;
     background-position: center;
 }
