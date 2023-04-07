@@ -254,6 +254,7 @@ text-transform: uppercase;
     left: 50%;
     padding-left: 24px;
     padding-right: 24px;
+    padding-bottom: 24px;
     
     border-radius: 4px;
     min-height: 576px;
@@ -282,7 +283,7 @@ text-transform: uppercase;
     border-radius: 50%;
     text-align: center;
 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
@@ -442,7 +443,7 @@ text-transform: uppercase;
     background-color: var(--hover-focus-color) ;
     border: 1px solid var(--hover-focus-color);
     border-radius: 2px;
-    background-image: url(/images/click.svg#icon-Property-1click);
+    background-image: url(/images/click-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -647,7 +648,7 @@ text-transform: uppercase;
 }
 .social-media-list {
     display: flex;
-    gap: 24px;
+    gap: 16px;
     justify-content: center;
 }
 .subtitle {
@@ -877,7 +878,7 @@ margin-left: 120px;
     
 }
 .footer-mail {
-    padding-left: 80px;
+    margin-left: 80px;
     
 }
 
@@ -901,6 +902,7 @@ margin-left: 120px;
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.04em;
+    cursor: pointer;
 
     background-color: var(--primary-blue-color);
     border-radius: 4px;
@@ -925,6 +927,8 @@ margin-left: 120px;
     width: 264px;
     height: 40px;
     
+    color: white;
+    padding-left: 16px;
     border: 1px solid #FFFFFF;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
@@ -934,7 +938,7 @@ margin-left: 120px;
 }
 
 .footer-input::placeholder {
-    padding-left: 16px;
+    
     color: var(--primary-white-color);
     
 }
