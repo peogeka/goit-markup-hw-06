@@ -452,7 +452,7 @@ text-transform: uppercase;
 .checkbox:checked {
     background-color: #4D5AE5;
     background-size: contain;
-    background-image: url(/images/click-1.svg);
+    background-image: url(../images/click-1.svg);
     border-radius: 2px;
     border: none;
     width: 16px;
