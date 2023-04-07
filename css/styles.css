@@ -446,6 +446,7 @@ text-transform: uppercase;
     background-image: url(/images/click-1.svg);
     background-repeat: no-repeat;
     background-position: center;
+    background-origin: border-box;
 }
 .check-text::before {
     content: '';
