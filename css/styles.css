@@ -450,7 +450,7 @@ text-transform: uppercase;
 }
 .check-text::before {
     content: '';
-    display: inline-block;
+    display: flex;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
